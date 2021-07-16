@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "deployToCloud": "cd frontend && quasar build -m spa && cd ../ && firebase deploy"
+    }
+}
